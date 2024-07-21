@@ -1,0 +1,12 @@
+.card-custom{
+    border:1px dashed #ddd;
+    padding: 2rem;
+    height: 30rem;
+ 
+}
+.card-custom-info{
+    height: 35rem;
+}
+.text-size{
+    font-size: 12px;
+}
