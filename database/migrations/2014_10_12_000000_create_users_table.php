@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->string('foto')->nullable();;
+            $table->string('foto')->nullable();
             $table->enum("perfil", ["carteira", "artista", "promotor_evento", "casa_evento", "pb"]);
             $table->enum('status',["pendente", "verificado", "notificado"]);
             $table->foreignIdFor(Promotor::class)->nullable();
